@@ -1,0 +1,60 @@
+
+\documentclass{article} %{{{--
+
+% Standard Word margins
+\usepackage[paper=a4paper,
+	        top=2.54cm,
+	        left=2.54cm,
+	        right=2.54cm,
+	        bottom=2.54cm
+	        ]{geometry}
+
+% eliminate 
+\usepackage{titlesec}
+\titleformat{\subsection}[runin]{\normalfont\bfseries}{\thesubsection}{3pt}{}
+
+% Make a custom header	        
+\renewcommand{\thesection}{Article \Roman{section}.} 
+\renewcommand{\thesubsection}{\roman{subsection}.}
+
+% Rename references
+\renewcommand{\refname}{\sectionheader{\textnormal{Publications 2017-2018}}}
+
+\begin{document}
+
+\title{Center for Computational and Integrative Biology Student Organizing Committee Constitution}
+\date{}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Name}
+
+\input{articles/I.tex}
+
+\section{Purpose}
+
+\input{articles/II.tex}
+
+\section{Authority}
+
+\input{articles/III.tex}
+
+\section{Membership}
+
+\input{articles/IV.tex}
+
+\section{Board}
+
+\input{articles/V.tex}
+
+\section{Elections}
+
+\input{articles/VI.tex}
+
+\section{Meetings}
+
+\input{articles/VII.tex}
+
+
+\end{document}
